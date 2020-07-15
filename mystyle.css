@@ -31,39 +31,65 @@ footer, header, hgroup, menu, nav, section {
 
 html {
     font-size: 62.5%;
+    margin: 1%;
 }
 
 
 header {
     text-align: center;
-    margin: 1.5rem;
-    padding: 3rem;
+    margin: 0;
+    padding: 0;
+    
 }
 
 #header_img {
-    width: 250px;
+    width: 500px;
     border-radius: 50%;
-    float: left;
-    margin-left: 15%;
+    display: block;
+    text-align: left;
+    
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 8rem;
     text-align: center;
+    font-family: 'Chelsea Market', cursive;
 }
+
+.header_text {
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container_header {
+    padding-right: 20%;
+    padding-left: 5%;
+    margin-top: 3%;
+    
+}
+
 
 .container_navbar {
     text-align: center;
+    
+}
+
+.nav_bar {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav_bar button {
     color: white;
-    background-color: aqua;
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
     text-decoration: none;
-    padding: 1rem;
+    margin: 1%;
+    padding: 1.5rem;
+    width: 20%;
     border-radius: 1.2rem;
-    margin: 5rem;
-    width: 7%;
 }
 
 #button1 {
@@ -79,46 +105,67 @@ h1 {
 }
 
 .MainTextBody {
-    margin: 10%;
-    padding: 3rem;
+    font-size: 3rem;
+    letter-spacing: .25rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin: 2%;
+    padding: 5rem;
     color: white;
     background-color: #DDB9A3;
-    width: 75%
+    width: 90%;
     
 }
 
 .middle_section {
     text-align: center;
+    margin-bottom: 2%;
 }
 
 #Campfire {
-    width: 15rem;
-    margin-right: 25rem;
-    
+    width: 30rem;
+}
+
+#campfire_text {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #Van {
-    width: 15rem;
-    
+    width: 30rem;
+}
+
+#van_text {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #footer_img {
     width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    object-position: 22% 22%;
 }
 
-.container_footernavbar {
-    text-align: center;
+.footer_navbar {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer_navbar button {
     text-align: center;
     color: white;
-    background-color: aqua;
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
     text-decoration: none;
-    padding: 1rem;
+    margin: 1%;
+    padding: 1.5rem;
+    width: 20%;
     border-radius: 1.2rem;
-    margin: 5rem;
-    width: 7%;
 }
 
 #button1a {

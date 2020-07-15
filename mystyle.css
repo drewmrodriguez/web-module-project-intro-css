@@ -1,0 +1,137 @@
+/* reset css */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+/* HTML5 display-role reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+/* every element is a border-box */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+header {
+    text-align: center;
+    margin: 1.5rem;
+    padding: 3rem;
+}
+
+#header_img {
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 15%;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.container_navbar {
+    text-align: center;
+}
+
+.nav_bar button {
+    color: white;
+    background-color: aqua;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    margin: 5rem;
+    width: 7%;
+}
+
+#button1 {
+    background-color: #FF764E;
+}
+
+#button2 {
+    background-color: #5ED3EB;
+}
+
+#button3 {
+    background-color: #FFCD69;
+}
+
+.MainTextBody {
+    margin: 10%;
+    padding: 3rem;
+    color: white;
+    background-color: #DDB9A3;
+    width: 75%
+    
+}
+
+.middle_section {
+    text-align: center;
+}
+
+#Campfire {
+    width: 15rem;
+    margin-right: 25rem;
+    
+}
+
+#Van {
+    width: 15rem;
+    
+}
+
+#footer_img {
+    width: 100%;
+}
+
+.container_footernavbar {
+    text-align: center;
+}
+
+.footer_navbar button {
+    text-align: center;
+    color: white;
+    background-color: aqua;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    margin: 5rem;
+    width: 7%;
+}
+
+#button1a {
+    background-color: #FF764E;
+}
+
+#button2a {
+    background-color: #5ED3EB;
+}
+
+#button3a {
+    background-color: #FFCD69;
+}
+
+
+
